@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #2c3439;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#images {
+    width: 400px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+#sample {
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+}
+#timer {
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    width: 50vh;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#counter {
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    width: 25vh;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#buttons {
+    width: 30vh;
+    height: 50px;
+    border: 1px solid whitesmoke;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#area {
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+    width: 600px;
+}
+.tile {
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    cursor: pointer;
+}
+.arrow {
+    color: whitesmoke;
+    height: 100px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#slider {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+#sample {
+    height: 100px;
+    width: 100px;
+    background-size: contain;
+    border: 1px solid whitesmoke;
+}
+#ui {
+    height: 800px;
+    background-color: #2c3439;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+button {
+    font-size: 18px;
+    width: 45px;
+    color:#2c3439;
+    background-color: whitesmoke;
+}
+#overlay {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    z-index: 2;
+    cursor: pointer;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hala {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+    background-color: #2c3439;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#change {
+    color: whitesmoke;
+    width: 100vh;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#zapasowy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+table {
+    border: 1px solid whitesmoke;
+}
+td {
+    border: 1px solid whitesmoke;
+}
+#img1 {
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("img/1.gif");
+}
+#img2 {
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("img/2.gif");
+}
+#img3 {
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("img/3.gif");
+}
+#img4 {
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("img/1.gif");
+}
