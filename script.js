@@ -109,7 +109,9 @@ function highNoon(gameTime, firstDate) {
     } else {
         gameTime += newHour.getSeconds() + ":"
     }
-    if (newHour.getMilliseconds() < 10) {
+    if (newHour.getMilliseconds() == 0) {
+        gameTime += "000"
+    } else if (newHour.getMilliseconds() < 10) {
         gameTime += "00" + newHour.getMilliseconds()
     } else if (newHour.getMilliseconds() < 100) {
         gameTime += "0" + newHour.getMilliseconds()
